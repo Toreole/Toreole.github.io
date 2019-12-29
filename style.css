@@ -2,3 +2,9 @@ body {
 	background-color: rgb(20,20,20);
 	color: rgb(200,200,200);
 }
+
+centered {
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+}
