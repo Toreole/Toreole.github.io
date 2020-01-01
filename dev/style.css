@@ -21,7 +21,7 @@ inset {
 
 body {
   color: rgb(220, 220, 220);
-  background-image: url(/assets/cursed.png);
+  background-image: url(assets/cursed.png);
   background-attachment: fixed;
   background-position: center; 
   background-size: cover;
@@ -98,7 +98,7 @@ body {
 html:not([data-scroll='0']) {
   
   body {
-    background-image: url(/assets/ree.gif);
+    background-image: url(assets/ree.gif);
   }
   
     .topnav {
