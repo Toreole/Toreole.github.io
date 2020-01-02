@@ -12,13 +12,6 @@ header {
   position: flex;
 }
 
-inset {
-  margin-left: 20px;
-  margin-top: 20px;
-  margin-right: 10px;
-  position: absolute;
-}
-
 body {
   color: rgb(220, 220, 220);
   background-image: url(assets/cursed.png);
@@ -27,11 +20,6 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: 'Roboto', sans-serif;
-}
-
-main {
-  margin-top: 20px;
-  position: absolute;
 }
 
 /* taken from example */
@@ -43,9 +31,10 @@ body {
   margin: 0;
 }
 
+/* not needed. kinda stupid
 html:not([data-scroll='0']) body {
   background-image: url(assets/ree.gif);
-}
+}*/
 
 /* Style the header */
 .header {
