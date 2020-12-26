@@ -1,0 +1,20 @@
+[
+    {
+        "project": {
+            "name": "NEON",
+            "status": "Finished"
+        }
+    },
+    {
+        "project": {
+            "name": "Project T",
+            "status": "In Development"
+        }
+    },
+    {
+        "project": {
+            "name": "Pixel Rainbows",
+            "status": "In Development"
+        }
+    }
+]
