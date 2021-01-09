@@ -29,42 +29,45 @@
               <p>Featured Projects</p>
             </blockquote>
           </figure>
-          
           <!-- Carousel showing featured projects? -->
-          <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div id="featuredCarousel" class="carousel slide" data-bs-ride="carousel">
             <ol class="carousel-indicators">
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
-              <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+              <li data-bs-target="#featuredCarousel" data-bs-slide-to="0" class="active"></li>
+              <li data-bs-target="#featuredCarousel" data-bs-slide-to="1"></li>
+              <li data-bs-target="#featuredCarousel" data-bs-slide-to="2"></li>
             </ol>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="assets/cursed.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>First slide label</h5>
-                  <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                <img src="assets/Library_Scene_Bright.png" class="d-block img-fluid" alt="...">
+                <div class="carousel-caption d-none d-md-block" style="background-color: rgba(20, 20, 20, 0.6);">
+                  <h5>Fantasy Library</h5>
+                  <p>The first major modeling/level design project for uni.</p>
                 </div>
               </div>
               <div class="carousel-item">
-                <img src="assets/cursed.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Second slide label</h5>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                </div>
+                <a href="sites/neon.html">
+                  <img src="assets/NEON_ingame_screenshot.png" class="d-block img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block" style="background-color: rgba(20, 20, 20, 0.6);">
+                    <h5>NEON</h5>
+                    <p>A 2D arcade game made in Unity.</p>
+                  </div>
+                </a>
               </div>
               <div class="carousel-item">
-                <img src="assets/cursed.png" class="d-block w-100" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h5>Third slide label</h5>
-                  <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
-                </div>
+                <a href="https://toreole.itch.io/the-strange-high-house/">
+                  <img src="assets/HighHouse_Cool_Image.png" class="d-block img-fluid" alt="...">
+                  <div class="carousel-caption d-none d-md-block" style="background-color: rgba(20, 20, 20, 0.6);">
+                    <h5>The Strange High House</h5>
+                    <p>A short walking-sim based on H.P. Lovecraft's works.</p>
+                  </div>
+                </a>
               </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+            <a class="carousel-control-prev" href="#featuredCarousel" role="button" data-bs-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Previous</span>
             </a>
-            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+            <a class="carousel-control-next" href="#featuredCarousel" role="button" data-bs-slide="next">
               <span class="carousel-control-next-icon" aria-hidden="true"></span>
               <span class="visually-hidden">Next</span>
             </a>
@@ -80,6 +83,7 @@
                 <th scope="col">Platform</th>
                 <th scope="col">Category</th>
                 <th scope="col">Context</th>
+                <th scope="col">Last Updated</th>
                 <th scope="col">Status</th>
                 <th scope="col">Link</th>
               </tr>
@@ -90,39 +94,44 @@
                 <td>PLATFORM</td>
                 <td>CATEGORY</td>
                 <td>CONTEXT</td>
+                <td>Last Updated</td>
                 <td>STATUS</td>
                 <td><a class="btn btn-primary" href="EXTERN. LINK">PAGE</a></td>
               </tr>-->
               <!-- <span class="badge bg-success">New</span> to highlight "new" projects -->
               <tr class="table-success">
-                <td scope="row"><a href="template.html">NEON</a> - 2D Arcade Game</td>
+                <td scope="row"><a href="sites/neon.html">NEON <span class="badge bg-success">New Article</span></a></td>
                 <td>Unity - Win64</td>
                 <td>Programming - C#</td>
                 <td>University</td>
+                <td>2020/02/02</td>
                 <td>Finished</td>
-                <td><a class="btn btn-primary" href="https://toreole.itch.io/neon">Itch.io</a></td>
+                <td><a class="btn btn-primary" href="https://github.com/Toreole/CLA">GitHub</a> <a class="btn btn-primary" href="https://toreole.itch.io/neon">Itch.io</a></td>
               </tr>
               <tr class="table-warning">
                 <td scope="row">Butterflies</td>
                 <td>Unity - Win64, Web, MacOS, iOS, Android</td>
                 <td>Programming - C#</td>
                 <td>University</td>
+                <td>2020/12/20</td>
                 <td><abbr title="Work In Progress">WIP</abbr></td>
-                <td><a class="btn btn-primary" href="https://ditziedoodle.itch.io/butterflies">Itch.io</a></td>
+                <td><a class="btn btn-primary" href="https://github.com/Toreole/PixelRainbows">GitHub</a> <a class="btn btn-primary" href="https://ditziedoodle.itch.io/butterflies">Itch.io</a></td>
               </tr>
               <tr class="table-warning">
                 <td scope="row">Project T</td>
                 <td>Unity</td>
                 <td>Programming - C#, Game Design</td>
                 <td>Personal</td>
+                <td>2020/12/10</td>
                 <td>WIP</a></td>
                 <td></td>
               </tr>
               <tr class="table-success">
-                <td scope="row"><a href="">Library</a></td>
+                <td scope="row">Library</td>
                 <td>N/A</td>
                 <td>Modeling / Level Design - Blender</td>
                 <td>University</td>
+                <td>2020/07/24</td>
                 <td>Finished</td>
                 <td><a class="btn btn-primary" href="https://github.com/Toreole/Art_Enviro">GitHub</a></td>
               </tr>
@@ -131,6 +140,7 @@
                 <td>Unity</td>
                 <td>Programming - C#</td>
                 <td>Personal</td>
+                <td>2020/08/03</td>
                 <td>Finished</td>
                 <td><a class="btn btn-primary" href="https://github.com/Toreole/Unity-Minesweeper">GitHub</a></td>
               </tr>
@@ -139,6 +149,7 @@
                 <td>Standalone, Discord.NET</td>
                 <td>Programming - C#</td>
                 <td>Personal</td>
+                <td>2019/02/08</td>
                 <td>Halted</td>
                 <td><a class="btn btn-primary" href="https://github.com/Toreole/RinBot">GitHub</a></td>
               </tr>
@@ -147,8 +158,36 @@
                 <td>Unity</td>
                 <td>Programming - C#</td>
                 <td>University</td>
+                <td>2019/06/08</td>
                 <td>Finished</td>
-                <td><a class="btn btn-primary" href="https://toreole.itch.io/the-strange-high-house">Itch.io</a></td>
+                <td><a class="btn btn-primary" href="https://github.com/Toreole/LovecraftHighHouse">GitHub</a> <a class="btn btn-primary" href="https://toreole.itch.io/the-strange-high-house">Itch.io</a></td>
+              </tr>
+              <tr class="table-success">
+                <td scope="row">Bryn of Valhalla</td>
+                <td>Unity - Win64</td>
+                <td>Programming - C#, Game Design</td>
+                <td>Game Jam</td>
+                <td>2018/03/24</td>
+                <td>Finished</td>
+                <td><a class="btn btn-primary" href="https://toreole.itch.io/bryn-of-valhalla">Itch.io</a></td>
+              </tr>
+              <tr class="table-success">
+                <td scope="row">The Cave</td>
+                <td>Unity - Web</td>
+                <td>Level Design 2D</td>
+                <td>Game Jam</td>
+                <td>2018/04/16</td>
+                <td>Finished</td>
+                <td><a class="btn btn-primary" href="https://gabexd.itch.io/the-cave">Itch.io</a></td>
+              </tr>
+              <tr class="table-secondary">
+                <td scope="row">Spigot Plugins</td>
+                <td>Minecraft Spigot Server</td>
+                <td>Programming, Java</td>
+                <td>Personal</td>
+                <td>2016-2017</td>
+                <td>Finished</td>
+                <td></td>
               </tr>
             </tbody>
           </table>   
@@ -221,4 +260,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
     -->
   </body>
+  <footer>
+    <!-- a footer with some additional info is required i guess. -->
+    <!-- I also need an impressum for germany yikes lol -->
+
+  </footer>
 </html>
